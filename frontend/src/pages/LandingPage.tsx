@@ -112,10 +112,8 @@ const LandingPage = () => {
             <footer className="border-t-3 border-border bg-white py-12">
                 <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
                     <div className="text-xl font-bold">PYQ.BANK © 2025</div>
-                    <div className="flex gap-8 font-medium">
-                        <a href="#" className="hover:text-primary">Twitter</a>
-                        <a href="#" className="hover:text-primary">Instagram</a>
-                        <a href="#" className="hover:text-primary">Email</a>
+                    <div className="font-bold text-lg">
+                        built by <span className="text-primary underline decoration-2">gojodennis</span>
                     </div>
                 </div>
             </footer>
