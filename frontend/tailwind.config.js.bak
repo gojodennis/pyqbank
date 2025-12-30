@@ -1,0 +1,32 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+    content: [
+        "./index.html",
+        "./src/**/*.{js,ts,jsx,tsx}",
+    ],
+    theme: {
+        extend: {
+            colors: {
+                bg: '#fefae0',
+                surface: '#fefae0',
+                text: '#283618',
+                border: '#283618',
+                primary: '#606c38',
+                secondary: '#dda15e',
+                accent: '#bc6c25',
+            },
+            fontFamily: {
+                mono: ['"JetBrains Mono"', 'monospace'],
+                sans: ['"JetBrains Mono"', 'monospace'],
+            },
+            boxShadow: {
+                'neo': '4px 4px 0px 0px #283618',
+                'neo-lg': '8px 8px 0px 0px #283618',
+            },
+            borderWidth: {
+                '3': '3px',
+            }
+        },
+    },
+    plugins: [],
+}
